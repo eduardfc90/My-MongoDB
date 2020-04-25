@@ -1,5 +1,6 @@
-const express = require ('express');
-const app = express();
+const app = require('./app');
+require ('./database');
+
 
 app.listen(3000);
 console.log('server 3000');
